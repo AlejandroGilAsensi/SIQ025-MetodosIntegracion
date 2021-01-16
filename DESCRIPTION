@@ -1,0 +1,15 @@
+Package: MetInt
+Title: Métodos de integración
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Alejandro",
+           family = "Gil",
+           role = c("aut", "cre"),
+           email = "al403042@uji.es")
+Description: Este paquete realiza integrales propias según distintos métodos clásicos: regla del rectángulo, regla del punto medio,
+             regla del trapecio, y método de Simpson.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
