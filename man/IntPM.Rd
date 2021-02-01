@@ -22,7 +22,8 @@ Devuelve la integral de f entre a y b realizada por la regla del punto medio sob
 Integral por la regla del punto medio.
 }
 \examples{
-IntPM(cos,0,1), IntPM(cos,0,1,n=4)
+IntPM(cos,0,1)
+IntPM(cos,0,1,n=4)
 
 }
 \seealso{

@@ -25,7 +25,8 @@ se realiza el método simple, y si n > 1 se realiza el método compuesto.
 Integral por la regla de Simpson.
 }
 \examples{
-IntSimpson(cos,0,1), IntRect(cos,0,1,op=3/8,n=300)
+IntSimpson(cos,0,1)
+IntSimpson(cos,0,1,op=3/8,n=300)
 
 }
 \seealso{

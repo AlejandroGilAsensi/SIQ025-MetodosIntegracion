@@ -8,7 +8,9 @@
 #' @return Devuelve la integral de f entre a y b realizada por la regla del trapecio sobre n subintervalos equidistantes entre a y b.
 #' @export
 #'
-#' @examples IntTrap(cos,0,1), IntTrap(cos,0,1,n=4)
+#' @examples
+#' IntTrap(cos,0,1)
+#' IntTrap(cos,0,1,n=4)
 #'
 #' @seealso \link{IntRect}, \link{IntPM}, \link{IntSimpson}
 #'
