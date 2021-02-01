@@ -22,7 +22,8 @@ Devuelve la integral de f entre a y b realizada por la regla del rectángulo sob
 Integral por la regla del rectángulo.
 }
 \examples{
-IntRect(cos,0,1), IntRect(cos,0,1,n=4)
+IntRect(cos,0,1)
+IntRect(cos,0,1,n=4)
 
 }
 \seealso{

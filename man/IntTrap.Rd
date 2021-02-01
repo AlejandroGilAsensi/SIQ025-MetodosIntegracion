@@ -22,7 +22,8 @@ Devuelve la integral de f entre a y b realizada por la regla del trapecio sobre 
 Integral por la regla del trapecio.
 }
 \examples{
-IntTrap(cos,0,1), IntTrap(cos,0,1,n=4)
+IntTrap(cos,0,1)
+IntTrap(cos,0,1,n=4)
 
 }
 \seealso{
