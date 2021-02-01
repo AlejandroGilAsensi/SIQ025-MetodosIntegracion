@@ -10,7 +10,7 @@
 #'         se realiza el método simple, y si n > 1 se realiza el método compuesto.
 #' @export
 #'
-#' @examples IntSimpson(cos,0,1), IntRect(cos,0,1,op=3/8,n=300)
+#' @examples IntSimpson(cos,0,1) IntRect(cos,0,1,op=3/8,n=300)
 #'
 #' @seealso \link{IntRect}, \link{IntTrap}, \link{IntPM}
 #'
