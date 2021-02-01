@@ -8,7 +8,9 @@
 #' @return Devuelve la integral de f entre a y b realizada por la regla del punto medio sobre n subintervalos equidistantes entre a y b.
 #' @export
 #'
-#' @examples IntPM(cos,0,1) IntPM(cos,0,1,n=4)
+#' @examples
+#' IntPM(cos,0,1)
+#' IntPM(cos,0,1,n=4)
 #'
 #' @seealso \link{IntRect}, \link{IntTrap}, \link{IntSimpson}
 #'
